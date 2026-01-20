@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort.
+
+How do you know?: Sorting random50000.txt takes much more time than sorting random5000.txt, sorting sorted50000.txt takes much less time than sorting random50000.txt, and has the best performance amongst 3 when sorting sorted texts. The performance of sort1 is in line with O(n^2) and Ω(n).
+
+sort2 uses: Merge sort.
+
+How do you know?: Sort2 has the best performance when sorting random texts, the time for sorting random50000.txt does not take much longer than sorting random5000.txt. The time for sorting the sorted texts is roughly the same as sorting the random texts under the same size. The performance of sort2 is in line with nlogn.
+
+sort3 uses: Selection sort.
+
+How do you know?: Sorting random50000.txt takes much more time than sorting random5000.txt, sorting sorted50000.txt takes roughly the same time as sorting random50000.txt. The performance of sort3 in line with O(n^2) and Ω(n^2).
